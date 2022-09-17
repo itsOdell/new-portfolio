@@ -1,0 +1,154 @@
+/*           MAIN          */
+.bg {
+    background-image: url("/portfolio-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.main {
+    width: 70%;
+    height: 100%;
+}
+
+/*      LEFTBAR     */
+.LeftBar,
+.RightBar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    z-index: 2;
+}
+
+/*      LOGO        */
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoTitle {
+    margin-left: 3px;
+    color: var(--bright-green);
+    font-size: 35px;
+}
+
+/*      SOCIALS     */
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social:not(last-child),
+.social {
+    cursor: pointer;
+    margin-top: 15px;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.social svg:first-child {
+    width: 22px;
+    height: 17px;
+}
+
+.social svg:last-child {
+    width: 20px;
+    height: 20px;
+}
+
+.social:hover {
+    background: white;
+    border: none;
+    color: var(--background-color)
+}
+
+/*      RIGHTBAR        */
+
+/*      CONTACT BTN     */
+.contactBtn {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    height: 38px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 14px 0 14px;
+    transition: all 0.3s linear;
+}
+
+.contactBtn:hover {
+    background: white;
+    color: var(--background-color);
+    border: none;
+}
+
+/*      PLACEHOLDER     */
+.RightBar h1 {
+    font-size: 27px;
+    color: white;
+}
+
+.RightBar span {
+    color: var(--bright-green)
+}
+
+/*      NAVBAR      */
+.NavBar {
+    background-color: var(--card-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    bottom: -17px;
+    transform: translate(-50%, 0);
+    opacity: 0;
+}
+
+/*      NAVLINK     */
+.NavLink svg {
+    height: 35px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    margin: 15px 20px 15px 20px;
+}
+.NavLink svg:hover {
+    color: var(--bright-green)
+}
+
+
+/*          mobile          */
+@media (max-width: 480px) {
+
+}
+
+/*          tablets and ipad        */
+@media (min-width: 768px) {
+}
+
+/*      laptops         */
+@media (min-width: 1024px) {
+}
