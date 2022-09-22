@@ -3,12 +3,8 @@ import styles from "../styles/About.module.css"
 import Card from "../components/Card"
 import {about} from "../assets/about"
 import Transition from "../common/Transition"
-import recurseNum from "../common/recurseNum";
-import { useState } from "react"
 
 export default function About() {
-    let [amountBegin, setAmountBegin] = useState(0);
-    
     return (
         <Transition>
         <div className={styles.container}>
