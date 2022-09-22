@@ -2,7 +2,8 @@
 .bg {
     background-image: url("/portfolio-hero.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    overflow: hidden;
 }
 .wrapper {
     width: 100%;
@@ -15,6 +16,7 @@
 .main {
     width: 70%;
     height: 100%;
+    overflow-y: scroll;
 }
 
 /*      LEFTBAR     */

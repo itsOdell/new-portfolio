@@ -17,12 +17,6 @@
     font-size: 25px;
     opacity: 0;
     line-height: 1.35;
-    /* animation: fadeIn 2s ease 0 1 normal forwards; */
-    /* animation-name: fadeIn;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 2s; */
 }
 .header h3 {
     color: white

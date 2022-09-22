@@ -1,6 +1,6 @@
 .fadeInFromTop {
     animation-name: fadeInFromTop;
-    animation-delay: 1s;
+    animation-delay: .5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-duration: 2s;
@@ -18,7 +18,7 @@
 }
 .fadeInFromBottom {
     animation-name: fadeInFromBottom;
-    animation-delay: 1s;
+    animation-delay: .5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-duration: 2s;
