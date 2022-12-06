@@ -5,7 +5,6 @@
     flex-direction: column;
     align-items: center;
     overflow-y: scroll;
-    padding-bottom: 5rem;
 }
 .header {
     margin-top: 3.5rem;
@@ -21,6 +20,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 6rem;
 }
 .card {
     background: var(--card-color);
@@ -36,10 +36,12 @@
     border-radius: 5px;
 }
 .imageContainer {
-    width: 100px;
-    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
     position: relative;
-    max-wwidth: 150px;
+    max-width: 150px;
 }
 .skillTitleContainer {
     margin: 2.5rem 0 1rem 0;
@@ -69,4 +71,20 @@
 .activeTab {
     background-color: var(--background-color);
     color: var(--bright-green)
+}
+
+
+@media (max-width: 480px) {
+    .skillsContainer {
+        padding-bottom: 10rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        margin: 0 20px 1rem 20px;
+    }
+    .skillsContainer {
+        padding-bottom: 10rem;
+    }
 }

@@ -1,16 +1,87 @@
 .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .header {
-    margin-top: 3.5rem;
-    margin-botom: 1rem;
-    color: white;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
 }
 .header h1 {
-    font-size: 35px;
-    font-weight: bold;
+  font-size: 35px;
+  font-weight: bold;
+}
+.projectContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+}
+.project {
+  background-color: var(--card-color);
+  width: 300px;
+  margin: 1rem 1.5rem;
+  border-radius: 5px;
+}
+
+.summary {
+  margin: 15px 10px 0 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 2rem 10px 0 10px;
+  position: relative;
+  bottom: 10px;
+}
+.buttonContainer a {
+  width: 100%;
+}
+.summary h1 {
+  font-size: 21px;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.buttonContainer button {
+  width: 100%;
+  transition: all 0.2s linear;
+  padding: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--dark-green);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: semibold;
+  letter-spacing: 0.3;
+}
+
+.buttonContainer button:hover {
+  background-color: var(--bright-green);
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .projectContainer {
+    padding-bottom: 12rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projectContainer {
+    padding-bottom: 10rem;
+  }
+}
+
+.imageContainer * {
+  object-fit: cover;
 }

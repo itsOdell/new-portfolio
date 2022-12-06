@@ -1,8 +1,22 @@
 export const projects = [
     {
-        image: "url",
-        title: "SomeProject",
-        link: "url",
-        tags: ["NextJS", "angular"]
-    }
+        image: "/urlodge.png",
+        title: "URLodge",
+        source: "https://google.com",
+    },
+    {
+        image: "/portfolio-hero.jpg",
+        title: "some project",
+        source: "https://google.com",
+    },
+    {
+        image: "/portfolio-hero.jpg",
+        title: "some project",
+        source: "https://google.com",
+    },
+    {
+        image: "/portfolio-hero.jpg",
+        title: "some project",
+        source: "https://google.com",
+    },
 ]

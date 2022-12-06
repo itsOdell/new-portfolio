@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 5rem;
 }
 .header {
     color: white;
@@ -44,4 +45,24 @@
 .cardSubject {
     font-weight: 600;
     color: var(--dark-green);
+}
+
+
+@media (max-width: 480px) {
+    .aboutCardContainer {
+        padding-bottom: 10rem;
+    }
+}
+@media (max-width: 1024px) {
+    .header {
+        margin-top: 2rem;
+    }
+    .card {
+        height: 200px;
+        width: 230px;
+        font-size: 17px;
+    }
+    .card h1 {
+        font-size: 29px;
+    }
 }
