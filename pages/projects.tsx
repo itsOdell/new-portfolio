@@ -3,6 +3,8 @@ import React from "react"
 import styles from "../styles/Projects.module.css"
 import Project from "../components/Project"
 import Transition from "../common/Transition"
+import axios from "axios";
+import {projects} from "../assets/projects"
 
 
 const Projects: React.FC = ({projectData}: any): React.ReactElement => {
@@ -30,8 +32,8 @@ const Projects: React.FC = ({projectData}: any): React.ReactElement => {
 export default Projects;
 
 export async function getStaticProps() {
-    const res = await fetch("http://localhost:3000/api/projects");
-    const data = await res.json();
+    // const res = await axios.get("/api/projects");
+    const data = projects;
     return {
         props: {
             projectData: data

@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Skill from "../components/Skill"
 import styles from "../styles/Skills.module.css"
 import Transition from "../common/Transition"
+import axios from "axios";
+import {skills} from "../assets/skills";
 
 export default function Skills({skills}: any) {
     let [activeTab, setActiveTab] = useState<string>("all");
@@ -56,11 +58,11 @@ export default function Skills({skills}: any) {
 }
 
 export async function getStaticProps() {
-    const data = await fetch("http://localhost:3000/api/skills");
-    const skills = await data.json()
+    // const data = await axios.get("/api/skills");
+    const skillsData = await skills
     return {
         props: {
-            skills
+            skills: skillsData
         },
         revalidate: 259200
     }
