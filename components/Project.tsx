@@ -13,7 +13,7 @@ const Project: React.FC<{image: string, title: string, source: string}> =
             <h1>{title}</h1>
         </div>
         <div className={styles.buttonContainer}>
-            <a href={source} target="_blank">
+            <a href={source} target="_blank" ref="noreferrer">
                 <button className={styles.button}>Visit</button>
             </a>
         </div>
