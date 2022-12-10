@@ -2,7 +2,7 @@ export const projects = [
     {
         image: "/urlodge.png",
         title: "URLodge",
-        source: "https://google.com",
+        source: "https://urlodge.vercel.app/",
     },
     {
         image: "/portfolio-hero.jpg",
