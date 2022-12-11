@@ -1,7 +1,7 @@
 export const about = [
     {
         title: "Experience",
-        amount: 4,
+        amount: 5,
         content: "+ Years",
         subject: "Of Programming"
     },
