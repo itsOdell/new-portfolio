@@ -16,16 +16,16 @@ function LeftBar() {
             </Link>
 
             <div className={styles.socials}>
-                <div className={styles.social}>
-                    <a href="https://github.com/itsOdell" target="_blank" rel="noreferrer">
+                <a className={styles.social} href="http://github.com/itsOdell" target="_blank" rel="noreferrer">
+                    {/* <a href="https://github.com/itsOdell" target="_blank" rel="noreferrer"> */}
                         <FontAwesomeIcon icon={faGithubAlt}/>
-                    </a>
-                </div>
-                <div className={styles.social}>
-                    <a href="https://www.linkedin.com/in/abduladil-sunnat-5262a81b1/" target="_blank" rel="noreferrer">
+                    {/* </a> */}
+                </a>
+                <a className={styles.social} href="https://www.linkedin.com/in/abduladil-sunnat-5262a81b1" target="_blank" rel="noreferrer">
+                    {/* <a href="https://www.linkedin.com/in/abduladil-sunnat-5262a81b1/" target="_blank" rel="noreferrer"> */}
                         <FontAwesomeIcon icon={faLinkedinIn}/>
-                    </a>
-                </div>
+                    {/* </a> */}
+                </a>
             </div>
         </section>
     )
