@@ -5,8 +5,8 @@ export const projects = [
         source: "https://urlodge.vercel.app/",
     },
     {
-        image: "",
-        title: "Movie Info",
+        image: "/movie flix.png",
+        title: "Movie FLIX",
         source: ""
     },
     {
@@ -14,19 +14,4 @@ export const projects = [
         title: "Kuma Jiu Jitsu",
         source: "https://team-kuma.webflow.io"
     }
-    // {
-    //     image: "/portfolio-hero.jpg",
-    //     title: "some project",
-    //     source: "https://google.com",
-    // },
-    // {
-    //     image: "/portfolio-hero.jpg",
-    //     title: "some project",
-    //     source: "https://google.com",
-    // },
-    // {
-    //     image: "/portfolio-hero.jpg",
-    //     title: "some project",
-    //     source: "https://google.com",
-    // },
 ]
