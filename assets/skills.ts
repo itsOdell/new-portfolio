@@ -69,4 +69,34 @@ export const skills = [
         skill: "Jest",
         tags: ["frontend", "all", "backend"]
     },
+    {
+        image: "graphql.png",
+        skill: "GraphQL",
+        tags: ["all", "frontend"]
+    },
+    {
+        image: "planetscale.png",
+        skill: "Planetscale",
+        tags: ["all", "backend"]
+    },
+    {
+        image: "prisma.png",
+        skill: "Prisma",
+        tags: ["all", "backend"]
+    },
+    {
+        image: "turborepo.png",
+        skill: "Turborepo",
+        tags: ["all"]
+    },
+    {
+        image: "webflow.png",
+        skill: "Webflow",
+        tags: ["all", "frontend"]
+    },
+    {
+        image: "webpack.png",
+        skill: "Webpack",
+        tags: ["all"]
+    }
 ];
