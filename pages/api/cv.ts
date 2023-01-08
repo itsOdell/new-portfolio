@@ -3,7 +3,7 @@ import path from 'path';
 import { NextApiHandler, NextApiRequest, NextApiResponse } from "next";
 
 const handler: NextApiHandler = (req: NextApiRequest, res: NextApiResponse) => {
-    const filePath = path.join(process.cwd(), `/public/cv.pdf`);
+    const filePath = path.join(process.cwd(), `/public/resume.pdf`);
     try {
       const imageBuffer = fs.readFileSync(filePath);
       res.setHeader('Content-Type', 'application/pdf');
