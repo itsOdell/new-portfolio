@@ -2,7 +2,7 @@ import React, {useRef} from 'react';
 import Head from "next/head";
 import styles from "../styles/Contact.module.css";
 import ContactInput from './ContactInput';
-import email from "../common/email";
+import email from "../utils/email";
 
 const ContactComp: React.FC = (): React.ReactElement => {
     const form = useRef<HTMLFormElement>(null)
@@ -25,7 +25,7 @@ const ContactComp: React.FC = (): React.ReactElement => {
     }
     
     return (
-        <div className={styles.container}>  
+        <section className={styles.container}>  
             <Head>
                 <title>Abduladil Sunnat | Contact</title>
             </Head>
@@ -36,7 +36,7 @@ const ContactComp: React.FC = (): React.ReactElement => {
                 <ContactInput placeholder={"Your Message"} type="textarea" name="message"/>
                 <button className={styles.button}>Send</button>
             </form>
-        </div>
+        </section>
     )
 }
 

@@ -1,8 +1,8 @@
 import Head from "next/head"
 import styles from "../styles/About.module.css"
 import Card from "../components/Card"
-import {about} from "../assets/about"
-import Transition from "../common/Transition"
+import {about} from "../data/about"
+import Transition from "../utils/Transition"
 
 export default function About() {
     return (

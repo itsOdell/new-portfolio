@@ -16,7 +16,6 @@ export default function Home() {
           <Link href="/api/cv">
               <button className={styles.button}>Download CV</button>
           </Link>
-              {/* <button className={styles.button}>Contact Me</button> */}
         </div>
       </header>
     </div>

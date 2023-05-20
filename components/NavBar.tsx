@@ -2,7 +2,7 @@ import NavLink from "./NavLink"
 import styles from '../styles/Layout.module.css'
 import {useRouter} from "next/router"
 import {useEffect, useState} from "react"
-import {paths} from "../assets/routes"
+import {paths} from "../data/routes"
 
 function Navbar() {
     const router = useRouter()

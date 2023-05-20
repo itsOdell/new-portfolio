@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import {AnimatePresence} from "framer-motion"
-import Transition from "../common/Transition";
+import Transition from "../utils/Transition";
 config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }: any) {

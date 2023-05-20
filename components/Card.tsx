@@ -19,10 +19,10 @@ export default function Card({title, amount, content, subject}: any) {
 
 
     return (
-        <div className={styles.card}>
+        <article className={styles.card}>
             <h2 className={styles.cardTitle}>{title}</h2>
             <h1 className={styles.cardContent}>{amount == undefined ? "" : amountBegin}{content}</h1>
             <p className={styles.cardSubject}>{subject}</p>
-        </div>
+        </article>
     )
 }

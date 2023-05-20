@@ -2,9 +2,9 @@ import Head from "next/head";
 import React from "react"
 import styles from "../styles/Projects.module.css"
 import Project from "../components/Project"
-import Transition from "../common/Transition"
+import Transition from "../utils/Transition"
 import axios from "axios";
-import {projects} from "../assets/projects"
+import {projects} from "../data/projects"
 
 
 const Projects: React.FC = ({projectData}: any): React.ReactElement => {
@@ -17,13 +17,13 @@ const Projects: React.FC = ({projectData}: any): React.ReactElement => {
             <header className={styles.header}>
                 <h1>Some of my projects</h1>
             </header>
-            <div className={styles.projectContainer}>
+            <section className={styles.projectContainer}>
                     {projectData.map((project: any) => {
                        return ( 
                         <Project {...project} key={project.title}/>
                        )
                     })}
-                </div>
+                </section>
         </div>
         </Transition>
     )

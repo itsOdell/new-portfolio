@@ -2,9 +2,9 @@ import Head from "next/head";
 import React, { useState } from "react";
 import Skill from "../components/Skill"
 import styles from "../styles/Skills.module.css"
-import Transition from "../common/Transition"
+import Transition from "../utils/Transition"
 import axios from "axios";
-import {skills} from "../assets/skills";
+import {skills} from "../data/skills";
 
 export default function Skills({skills}: any) {
     let [activeTab, setActiveTab] = useState<string>("all");
@@ -43,7 +43,7 @@ export default function Skills({skills}: any) {
                     Backend
                 </div>
             </section>
-                <section className={styles.skillsContainer}>
+                <div className={styles.skillsContainer}>
                     {skills.map((skill: any, i:number) => {
                         if (skill?.tags.includes(activeTab)) {
                         return (
@@ -51,7 +51,7 @@ export default function Skills({skills}: any) {
                         )
                         }
                     })}
-                </section>
+                </div>
         </div>
         </Transition>
     )
