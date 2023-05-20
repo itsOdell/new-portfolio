@@ -8,7 +8,7 @@ const meta = {
     "og:title": "Abduladil Sunnat Website Portfolio",
     "og:site_name": "Abduladil Sunnat",
     "og:url": "https://abduladil.vercel.app",
-    "og:image": "/public/portfolio-hero.png",
+    "og:image": "/portfolio-hero.jpg",
 }
 
 export default meta
