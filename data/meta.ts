@@ -1,5 +1,5 @@
 const meta = {
-    "description": "Abduladil Sunnat is a Full Stack Developer/Engineer. He creates effective, scalable and effiecent solutions for organizations of all types with performace in mind. He is knowledgable in stacks such as: MERN, MEAN, T3 and more",
+    "description": "Abduladil Sunnat is a Full Stack Developer/Engineer. He creates effective, scalable and effiecent solutions for organizations of all types with performace in mind. He is knowledgable in stacks such as: MERN, MEAN, T3 and more.",
     "robots": "index,follow",
     "author": "Abduladil Sunnat, abduladilsunnat@gmail.com",
     "owner": "Abduladil Sunnat, abduladilsunnat@gmail.com",
